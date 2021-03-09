@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <!-- First task first part -->
+
+    <servlet>
+        <servlet-name>first-servlet1</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.first_task.first_part.FirstServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>first-servlet1</servlet-name>
+        <url-pattern>/first_task-servlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>first-servlet2</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.first_task.first_part.SecondServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>first-servlet2</servlet-name>
+        <url-pattern>/first_task-servlet2</url-pattern>
+    </servlet-mapping>
+
+    <!-- First task second part -->
+
+    <servlet>
+        <description></description>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>first-LoginServlet</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.first_task.second_part.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>first-LoginServlet</servlet-name>
+        <url-pattern>/first-LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>ProfileServlet</display-name>
+        <servlet-name>first-ProfileServlet</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.first_task.second_part.ProfileServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>first-ProfileServlet</servlet-name>
+        <url-pattern>/first-ProfileServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>LogoutServlet</display-name>
+        <servlet-name>first-LogoutServlet</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.first_task.second_part.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>first-LogoutServlet</servlet-name>
+        <url-pattern>/first-LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+    <!-- Second task -->
+
+    <servlet>
+        <servlet-name>second-servlet1</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.second_task.FirstServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>second-servlet1</servlet-name>
+        <url-pattern>/second_task-servlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>second-servlet2</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.second_task.SecondServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>second-servlet2</servlet-name>
+        <url-pattern>/second_task-servlet2</url-pattern>
+    </servlet-mapping>
+
+    <!-- Third task -->
+
+    <servlet>
+        <servlet-name>third-servlet1</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.third_task.FirstServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>third-servlet1</servlet-name>
+        <url-pattern>/third_task-servlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>third-servlet2</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.third_task.SecondServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>third-servlet2</servlet-name>
+        <url-pattern>/third_task-servlet2</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fourth task first part -->
+
+    <servlet>
+        <servlet-name>fourth-servlet1</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.fourth_task.first_part.FirstServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fourth-servlet1</servlet-name>
+        <url-pattern>/fourth_task-servlet1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>fourth-servlet2</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.fourth_task.first_part.SecondServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fourth-servlet2</servlet-name>
+        <url-pattern>/fourth_task-servlet2</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fourth task second part -->
+
+    <servlet>
+        <description></description>
+        <display-name>LoginServlet</display-name>
+        <servlet-name>fourth-LoginServlet</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.fourth_task.second_part.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fourth-LoginServlet</servlet-name>
+        <url-pattern>/fourth-LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>ProfileServlet</display-name>
+        <servlet-name>fourth-ProfileServlet</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.fourth_task.second_part.ProfileServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fourth-ProfileServlet</servlet-name>
+        <url-pattern>/fourth-ProfileServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>LogoutServlet</display-name>
+        <servlet-name>fourth-LogoutServlet</servlet-name>
+        <servlet-class>com.example.JavaEE_Assignment4.fourth_task.second_part.LogoutServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>fourth-LogoutServlet</servlet-name>
+        <url-pattern>/fourth-LogoutServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
